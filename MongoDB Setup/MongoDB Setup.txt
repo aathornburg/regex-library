@@ -1,0 +1,13 @@
+Steps in order to setup MongoDB:
+
+1. Install MongoDB from https://www.mongodb.com/download-center
+2. Then create C:\devl\data\db and {MongoDB Install}\log\mongod.log
+    -To create mongod.log, navigate to the {MongoDB Install}\log directory and execute 'echo "" > mongod.log' to create a blank mongod.log file.
+3. Open a command prompt in administrative mode
+4. Run the command
+    mongod.exe --config "C:\devl\software\MongoDB\Server\3.4\bin\etc\mongod.conf" --Install
+
+    -This should install mongodb as a Windows service and force it to start automatically.
+    -Notes:
+        -Ensure that the User group has FULL ACCESS to the C:\devl\data\db\" directory.  This may cause issues otherwise.
+        -The .conf file will be available on GitHub at https://github.com/aathornburg/regex-library
