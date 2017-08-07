@@ -11,7 +11,6 @@
     "@angular/platform-browser-dynamic": "~4.0.0",
     "@angular/router": "~4.0.0",
     "@uirouter/angular": "~1.0.0-beta.6",
-    "angular-in-memory-web-api": "~0.3.0",
     "angular-sanitize": "~1.6.5",
     "core-js": "^2.5.0",
     "express": "~4.15.3",
@@ -21,5 +20,8 @@
     "rxjs": "^5.4.2",
     "systemjs": "~0.19.40",
     "zone.js": "~0.8.4"
+  },
+  "devDependencies": {
+      "angular-in-memory-web-api": "~0.3.0",
   }
 }
