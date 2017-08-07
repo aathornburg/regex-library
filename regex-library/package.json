@@ -1,0 +1,25 @@
+{
+  "name": "regex-library",
+  "version": "0.0.1",
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "@uirouter/angular": "~1.0.0-beta.6",
+    "angular-in-memory-web-api": "~0.3.0",
+    "angular-sanitize": "~1.6.5",
+    "core-js": "^2.5.0",
+    "express": "~4.15.3",
+    "gulp": "~3.9.1",
+    "jquery": "~3.2.1",
+    "moment": "~2.18.1",
+    "rxjs": "^5.4.2",
+    "systemjs": "~0.19.40",
+    "zone.js": "~0.8.4"
+  }
+}
