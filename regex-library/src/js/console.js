@@ -1,5 +1,5 @@
-var consoleFunc = function(text) {
-    console.log(text);
+var consoleFunc = function(arr) {
+    arr.map(e => e * 2);
 }
 
 module.exports = consoleFunc;

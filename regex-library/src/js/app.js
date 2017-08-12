@@ -1,3 +1,3 @@
 var consoleFunc = require('./console.js');
 
-consoleFunc("Testing logging");
+console.log(consoleFunc([1, 2, 3]));
