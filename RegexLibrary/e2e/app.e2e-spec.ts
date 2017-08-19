@@ -1,14 +1,14 @@
-import { RegexLibraryPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('regex-library App', function() {
-  let page: RegexLibraryPage;
+describe('regex-library App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new RegexLibraryPage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('rl works!');
+    expect(page.getParagraphText()).toEqual('Welcome to rl!');
   });
 });

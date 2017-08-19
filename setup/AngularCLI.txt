@@ -1,2 +1,2 @@
-1.  Run "npm install angular-cli"
+1.  Run "npm install @angular/cli --global"
     This allows us to scaffold Angular 4 items VERY easily
