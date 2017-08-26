@@ -28,17 +28,4 @@
         width: 1478px;
         height: 100%;
     }
-    
-    .navigation-link {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        padding: 0 1.5em;
-        height: 100%;
-        cursor: pointer;
-        &:hover {
-            color: $dark-gray;
-            border-bottom: 5px solid $gray;
-        }
-    }
 }
