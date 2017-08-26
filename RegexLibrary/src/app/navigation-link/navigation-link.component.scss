@@ -1,5 +1,9 @@
 @import "~variables.scss";
 
+:host {
+    height: 100%;
+}
+
 .navigation-link {
     display: flex;
     align-items: center;
@@ -9,7 +13,7 @@
     cursor: pointer;
     &:hover {
         color: $dark-gray;
-        border-bottom: 5px solid $gray;
+        border-bottom: 3px solid $light-gray;
     }
     &:visited {
         color: $gray;
