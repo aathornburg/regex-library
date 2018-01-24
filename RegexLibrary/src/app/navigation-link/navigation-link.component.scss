@@ -11,12 +11,11 @@
     padding: 0 1.5em;
     height: 100%;
     cursor: pointer;
-    color: $gray;
-    &:hover {
-        color: $dark-gray;
-        border-bottom: 3px solid $light-gray;
+    font-weight: bold;
+    &, &:visited {
+        color: $dark-main-color;
     }
-    &:visited {
-        color: $gray;
+    &:active, &:hover {
+        color: $light-main-color;
     }
 }

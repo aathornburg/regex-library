@@ -1,8 +1,17 @@
 @import "~variables.scss";
 
 :host {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // flex: 1;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.search-input {
+    width: 100%;
+    height: 120px;
+    border: 0;
+    border-bottom: 1px solid $dark-main-color;
+    border-top: 1px solid $dark-main-color;
+    background-color: $background-main-color;
 }
